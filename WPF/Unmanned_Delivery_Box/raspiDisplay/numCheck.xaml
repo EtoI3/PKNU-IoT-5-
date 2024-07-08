@@ -1,0 +1,58 @@
+﻿<Window x:Class="raspiDisplay.numCheck"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:raspiDisplay"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="numCheck" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="0.3*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130*" />
+            <RowDefinition Height="50*" />
+            <RowDefinition Height="35*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3">
+            <Image Source="Resources/package.png" Height="230" VerticalAlignment="Bottom" />
+        </Grid>
+
+        <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+                <TextBlock>
+                    <Run x:Name="nboxTxtblo" FontSize="30" FontWeight="ExtraBold">n</Run>
+                </TextBlock>
+                <Run FontSize="30" FontWeight="ExtraBold">번 보관함</Run>
+                <Run FontSize="30" >에서 물품을 찾으세요.</Run>
+                <LineBreak/>
+                <Run FontSize="16">다음 사용자를 위해 물품을 꺼낸 후 문을 꼭 닫아주세요.</Run>
+                <LineBreak/>
+                <Run FontSize="16">감사합니다.</Run>
+            </TextBlock>
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Button x:Name="reopenBtn" Content="다시 열기" Width="150" Height="50"
+                    FontSize="15" FontWeight="Bold"
+                    Style="{StaticResource MaterialDesignPaperDarkButton}"
+                    materialDesign:ButtonAssist.CornerRadius="25">
+            </Button>
+        </Grid>
+
+        <Grid Grid.Column="3" Grid.Row="2">
+            <Button x:Name="continueBtn" Content="계속 하기" Width="150" Height="50"
+                    FontSize="15" FontWeight="Bold"
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                    materialDesign:ButtonAssist.CornerRadius="25">
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
