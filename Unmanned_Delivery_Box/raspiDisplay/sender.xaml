@@ -25,10 +25,10 @@
         <Grid Grid.Column="0" Grid.ColumnSpan="2" Background="#002984">
             <StackPanel Orientation="Horizontal">
                 <Button Width="30" Height="30" Padding="0" Background="#3F51B5">
-                    <!-- 뒤로가기 아이콘 -->
+                    <Image Source="Assets/back.png" Margin="3"/>
                 </Button>
                 <Button Width="30" Height="30" Padding="0" Background="#3F51B5">
-                    <!-- 홈 아이콘 -->
+                    <Image Source="Assets/homeOutline.png" Margin="2"/>
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="EtoI3's Smart Box"
                            Foreground="White" FontSize="13" FontFamily="KoPubDotum Medium"/>
@@ -38,7 +38,7 @@
         <!-- 텍스트 -->
         <Grid Grid.Column="0" Grid.Row="1" Grid.RowSpan="2">
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Left" Margin="0,0,50,130">
-                <Run FontSize="35" FontFamily="KoPubDotum Bold">보내는 분의</Run>
+                <Run FontSize="34" FontFamily="KoPubDotum Bold">보내는 분의</Run>
                 <LineBreak/>
                 <Run FontSize="25" FontFamily="KoPubDotum Medium">휴대폰 번호를</Run>
                 <LineBreak/>
@@ -112,7 +112,7 @@
             <StackPanel Orientation="Horizontal" Grid.Row="3">
                 <Button Width="70" Height="53" Margin="10,0,13,0" Background="White"
                         BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
-                    <!-- backspace 아이콘 -->
+                    <Image Source="Assets/backspace2.png" Margin="0,8,4,8"/>
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
                         Content="0" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">

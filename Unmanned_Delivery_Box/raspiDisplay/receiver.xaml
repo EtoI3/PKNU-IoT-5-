@@ -25,10 +25,10 @@
         <Grid Grid.Column="0" Grid.ColumnSpan="2" Background="#002984">
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="backBtn" Width="30" Height="30" Padding="0" Background="#3F51B5">
-                    <!-- 뒤로가기 아이콘 -->
+                    <Image Source="Assets/back.png" Margin="3"/>
                 </Button>
                 <Button x:Name="homeBtn" Width="30" Height="30" Padding="0" Background="#3F51B5">
-                    <!-- 홈 아이콘 -->
+                    <Image Source="Assets/homeOutline.png" Margin="2"/>
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="EtoI3's Smart Box"
                    Foreground="White" FontSize="13" FontFamily="KoPubDotum Medium"/>
@@ -123,7 +123,7 @@
                 <Button Width="70" Height="53" Margin="10,0,13,0" Background="White"
                         BorderBrush="DarkGray" Foreground="Black" 
                         CornerRadius="22">
-                    <!-- backspace 아이콘 -->
+                    <Image Source="Assets/backspace2.png" Margin="0,8,4,8"/>
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
                         Content="0" FontSize="20" BorderBrush="DarkGray" Foreground="Black"

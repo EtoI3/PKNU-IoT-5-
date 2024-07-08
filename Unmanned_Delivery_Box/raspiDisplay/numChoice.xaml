@@ -22,10 +22,10 @@
         <Grid Grid.Row="0" Background="#002984">
             <StackPanel Orientation="Horizontal">
                 <Button Width="30" Height="30" Padding="0" Background="#3F51B5">
-                    <!-- 뒤로가기 아이콘 넣기 -->
+                    <Image Source="Assets/back.png" Margin="3"/>
                 </Button>
                 <Button Width="30" Height="30" Padding="0" Background="#3F51B5">
-                    <!-- 홈 아이콘 넣기 -->
+                    <Image Source="Assets/homeOutline.png" Margin="2"/>
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="보관함 번호를 선택해주세요."
                    Foreground="White" FontSize="13"  FontFamily="KoPubDotum Medium"/>
