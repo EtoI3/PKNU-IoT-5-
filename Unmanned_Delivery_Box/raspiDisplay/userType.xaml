@@ -1,0 +1,77 @@
+﻿<Page
+    x:Class="raspiDisplay.userType"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:raspiDisplay"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="0.5*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <!-- 사용자 유형 제목 -->
+        <Grid Grid.Column="1" Grid.ColumnSpan="3">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Margin="0,50,0,0">
+                <Run FontSize="35" FontFamily="KoPubDotum Bold">사용자 유형</Run>
+                <Run FontSize="32" FontFamily="KoPubDotum Bold">을 선택하세요.</Run>
+            </TextBlock>
+        </Grid>
+
+        <Grid Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="5" Grid.RowSpan="2" Background="#002984" />
+        
+        <!-- 받는 사람 버튼 -->
+        <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
+            <Button Width="280" Height="160" BorderBrush="DarkGray"
+                    CornerRadius="25" Background="White" HorizontalAlignment="Center">
+                <Image Source="Assets/receiver.png" Margin="0,22,5,0"/>
+            </Button>
+        </Grid>
+        
+        <!-- 보내는 사람 버튼 -->
+        <Grid Grid.Column="3" Grid.Row="1" Grid.RowSpan="2">
+            <Button Width="280" Height="160" BorderBrush="DarkGray" HorizontalAlignment="Center"
+                    CornerRadius="25" Background="White">
+                <Image Source="Assets/sender.png" RenderTransformOrigin="0.5,0.5" Margin="5">
+                    <Image.RenderTransform>
+                        <ScaleTransform ScaleX="-1" />
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+        </Grid>
+        
+        <!-- 받는 사람 텍스트 -->
+        <Grid Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" 
+                       Foreground="White" Margin="5,10,0,0">
+                <Run FontSize="30" FontFamily="KoPubDotum Bold">받는 사람</Run>
+                <LineBreak/>
+                <Run FontSize="15" FontFamily="KoPubDotum Medium">물품을 수령하는 분</Run>
+            </TextBlock>
+        </Grid>
+
+        <!-- 보내는 사람 텍스트 -->
+        <Grid Grid.Column="3" Grid.Row="2" Grid.RowSpan="2">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
+                       TextAlignment="Center" Foreground="White" Margin="5,10,0,0">
+                <Run FontSize="30" FontFamily="KoPubDotum Bold">보내는 사람</Run>
+                <LineBreak/>
+                <Run FontSize="15" FontFamily="KoPubDotum Medium">물품을 등록하는 분</Run>
+            </TextBlock>
+        </Grid>
+    </Grid>
+</Page>
