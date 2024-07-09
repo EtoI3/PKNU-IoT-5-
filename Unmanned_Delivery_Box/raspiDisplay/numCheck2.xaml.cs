@@ -26,5 +26,10 @@ namespace raspiDisplay
         {
             this.InitializeComponent();
         }
+
+        private void restartBtn2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(sender));
+        }
     }
 }

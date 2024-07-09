@@ -21,10 +21,12 @@
         <!-- 상단바 -->
         <Grid Grid.Row="0" Background="#002984">
             <StackPanel Orientation="Horizontal">
-                <Button Width="30" Height="30" Padding="0" Background="#3F51B5">
+                <Button x:Name="backBtn3" Width="30" Height="30" Padding="0" Background="#3F51B5"
+                        Click="backBtn3_Click">
                     <Image Source="Assets/back.png" Margin="3"/>
                 </Button>
-                <Button Width="30" Height="30" Padding="0" Background="#3F51B5">
+                <Button x:Name="homeBtn3" Width="30" Height="30" Padding="0" Background="#3F51B5"
+                        Click="homeBtn3_Click">
                     <Image Source="Assets/homeOutline.png" Margin="2"/>
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="보관함 번호를 선택해주세요."
@@ -59,23 +61,33 @@
             <!-- 버튼 첫번째 행 -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom"
                         Margin="0,0,0,1" Grid.Row="0">
-                <Button Width="130" Height="110" Margin="0,0,1,0" CornerRadius="5" Background="#3F51B5">
+                <Button Width="130" Height="110" Margin="0,0,1,0" CornerRadius="5" Background="#3F51B5"
+                        Click="Button_Click">
                     <TextBlock Text="1" FontSize="15" Margin="0,0,0,80" Foreground="White" FontFamily="KoPubDotum Bold"/>
                 </Button>
-                <Button Width="130" Height="110" Margin="1,0,0,0" CornerRadius="5" Background="#3F51B5">
+                <Button Width="130" Height="110" Margin="1,0,0,0" CornerRadius="5" Background="#3F51B5"
+                        Click="Button_Click">
                     <TextBlock Text="2" FontSize="15" Margin="0,0,0,80" Foreground="White"  FontFamily="KoPubDotum Bold"/>
                 </Button>
             </StackPanel>
 
             <!-- 버튼 두번째 행 -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1">
-                <Button Width="130" Height="110" Margin="0,1,1,0" CornerRadius="5" Background="#3F51B5">
+                <Button Width="130" Height="110" Margin="0,1,1,0" CornerRadius="5" Background="#3F51B5"
+                        Click="Button_Click">
                     <TextBlock Text="3" FontSize="15" Margin="0,0,0,80" Foreground="White"  FontFamily="KoPubDotum Bold"/>
                 </Button>
-                <Button Width="130" Height="110" Margin="1,0,0,0" CornerRadius="5" Background="#3F51B5">
+                <Button Width="130" Height="110" Margin="1,0,0,0" CornerRadius="5" Background="#3F51B5"
+                        Click="Button_Click">
                     <TextBlock Text="4" FontSize="15" Margin="0,0,0,80" Foreground="White"  FontFamily="KoPubDotum Bold"/>
                 </Button>
             </StackPanel>
+
+            <Grid Grid.Row="2">
+                <Button x:Name="nextBtn" Width="150" Height="50" HorizontalAlignment="Right" Margin="0,0,30,10" CornerRadius="25"
+                        Background="#002984" Foreground="White" Content="선택완료" FontSize="15" FontFamily="KoPubDotum Bold"
+                        Click="nextBtn_Click"/>
+            </Grid>
         </Grid>
     </Grid>
 </Page>

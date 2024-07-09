@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +26,53 @@ namespace raspiDisplay
         public receiver()
         {
             this.InitializeComponent();
+        }
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(userType));
+        }
+
+        private void homeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = sender as Button;
+            if (button != null)
+            {
+                NumTxtBox.Text += button.Content.ToString();
+                NumTxtBox.Focus(FocusState.Programmatic);
+                NumTxtBox.SelectionStart = NumTxtBox.Text.Length;
+            }
+        }
+
+        private void NumTxtBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            if (textBox != null && textBox.Text.Length > 6)
+            {
+                textBox.Text = textBox.Text.Substring(0, 6);
+                textBox.SelectionStart = textBox.Text.Length;
+            }
+        }
+
+        private void delBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(this.NumTxtBox.Text))
+            {
+                this.NumTxtBox.Text = this.NumTxtBox.Text.Substring(0, this.NumTxtBox.Text.Length - 1);
+                NumTxtBox.Focus(FocusState.Programmatic);
+                NumTxtBox.SelectionStart = NumTxtBox.Text.Length;
+            }
+
+        }
+
+        private void okBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(numCheck));
         }
     }
 }

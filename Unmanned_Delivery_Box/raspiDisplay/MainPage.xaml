@@ -8,6 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     Height="450" Width="800">
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -24,7 +25,7 @@
         <Grid Grid.Row="0" Grid.ColumnSpan="3" Background="#002984">
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
                        Foreground="White" FontSize="16" FontFamily="KoPubDotum Bold" >
-                Welcome to EtoI3!!
+                Welcome to EtoI3✨
             </TextBlock>
         </Grid>
         
@@ -43,9 +44,10 @@
         </Grid>
 
         <!-- 시작버튼 -->
-        <Grid Grid.Row="3" Grid.Column="1" >
-            <Button Width="150" Height="50" Content="시작하기" FontSize="15" FontFamily="KoPubDotum Bold"
-                HorizontalAlignment="Center" Margin="0,0,0,10" CornerRadius="25" Background="#002984" Foreground="White"/>
+        <Grid Grid.Row="3" Grid.Column="1">
+            <Button x:Name="StartBtn" Width="150" Height="50" Content="시작하기" FontSize="15" FontFamily="KoPubDotum Bold"
+                    HorizontalAlignment="Center" Margin="0,0,0,10" CornerRadius="25" Background="#002984" Foreground="White"
+                    Click="StartBtn_Click"/>
         </Grid>
     </Grid>
 </Page>

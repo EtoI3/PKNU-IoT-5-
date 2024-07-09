@@ -36,16 +36,16 @@
         
         <!-- 받는 사람 버튼 -->
         <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
-            <Button Width="280" Height="160" BorderBrush="DarkGray"
-                    CornerRadius="25" Background="White" HorizontalAlignment="Center">
+            <Button x:Name="receiverBtn" Width="280" Height="160" BorderBrush="DarkGray" HorizontalAlignment="Center"
+                    CornerRadius="25" Background="White" Click="receiverBtn_Click">
                 <Image Source="Assets/receiver.png" Margin="0,22,5,0"/>
             </Button>
         </Grid>
         
         <!-- 보내는 사람 버튼 -->
         <Grid Grid.Column="3" Grid.Row="1" Grid.RowSpan="2">
-            <Button Width="280" Height="160" BorderBrush="DarkGray" HorizontalAlignment="Center"
-                    CornerRadius="25" Background="White">
+            <Button x:Name="senderBtn" Width="280" Height="160" BorderBrush="DarkGray" HorizontalAlignment="Center"
+                    CornerRadius="25" Background="White" Click="senderBtn_Click">
                 <Image Source="Assets/sender.png" RenderTransformOrigin="0.5,0.5" Margin="5">
                     <Image.RenderTransform>
                         <ScaleTransform ScaleX="-1" />

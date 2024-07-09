@@ -26,5 +26,15 @@ namespace raspiDisplay
         {
             this.InitializeComponent();
         }
+
+        private void receiverBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(receiver));
+        }
+
+        private void senderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(sender));
+        }
     }
 }

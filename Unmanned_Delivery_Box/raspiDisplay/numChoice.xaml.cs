@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,9 +23,40 @@ namespace raspiDisplay
     /// </summary>
     public sealed partial class numChoice : Page
     {
+        private Button selectedButton = null;
+
         public numChoice()
         {
             this.InitializeComponent();
+        }
+
+        private void backBtn3_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(sender));
+        }
+
+        private void homeBtn3_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button clickedButton = (Button)sender;
+
+            clickedButton.Background = new SolidColorBrush(Color.FromArgb(255, 169, 169, 169));
+
+            if (selectedButton != null && selectedButton != clickedButton)
+            {
+                selectedButton.Background = new SolidColorBrush(Color.FromArgb(255, 63, 81, 181));
+            }
+
+            selectedButton = clickedButton;
+        }
+
+        private void nextBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(numCheck2));
         }
     }
 }

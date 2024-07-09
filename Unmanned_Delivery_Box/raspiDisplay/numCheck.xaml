@@ -30,15 +30,27 @@
         
         <!-- 텍스트 -->
         <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5">
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Margin="0,10,0,0" >
-                <Run FontSize="30" FontFamily="KoPubDotum Bold" >n</Run>
-                <Run FontSize="30" FontFamily="KoPubDotum Bold" >번 보관함</Run> <!-- n 따로 두기 -->
-                <Run FontSize="30" FontFamily="KoPubDotum Medium"  >에서 물품을 찾으세요.</Run>
-                <LineBreak/>
-                <Run FontSize="16" FontFamily="KoPubDotum Medium" >다음 사용자를 위해 물품을 꺼낸 후 문을 꼭 닫아주세요.</Run>
-                <LineBreak/>
-                <Run FontSize="16" FontFamily="KoPubDotum Medium" >감사합니다.</Run>
-            </TextBlock>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0">
+                <!-- 첫 번째 줄 -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+                        <Run FontSize="30" FontFamily="KoPubDotum Bold">n</Run>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+                        <Run FontSize="30" FontFamily="KoPubDotum Bold">번 보관함</Run>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+                        <Run FontSize="30" FontFamily="KoPubDotum Medium">에서 물품을 찾으세요.</Run>
+                    </TextBlock>
+                </StackPanel>
+
+                <!-- 두 번째 줄 -->
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center">
+                    <Run FontSize="16" FontFamily="KoPubDotum Medium">다음 사용자를 위해 물품을 꺼낸 후 문을 꼭 닫아주세요.</Run>
+                    <LineBreak/>
+                    <Run FontSize="16" FontFamily="KoPubDotum Medium">감사합니다.</Run>
+                </TextBlock>
+            </StackPanel>
         </Grid>
 
         <!-- 다시열기 버튼 -->
@@ -50,9 +62,9 @@
 
         <!-- 계속하기 버튼 -->
         <Grid Grid.Column="3" Grid.Row="2">
-            <Button Content="계속 하기" Width="150" Height="50" FontFamily="KoPubDotum Bold"
-                    FontSize="15" CornerRadius="25" Background="#002984" Foreground="White" HorizontalAlignment="Center">
-            </Button>
+            <Button x:Name="restartBtn" Content="계속 하기" Width="150" Height="50" FontFamily="KoPubDotum Bold"
+                    FontSize="15" CornerRadius="25" Background="#002984" Foreground="White" 
+                    HorizontalAlignment="Center" Click="restartBtn_Click"/>
         </Grid>
     </Grid>
 </Page>

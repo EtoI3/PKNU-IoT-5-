@@ -24,10 +24,12 @@
         <!-- 상단바 -->
         <Grid Grid.Column="0" Grid.ColumnSpan="2" Background="#002984">
             <StackPanel Orientation="Horizontal">
-                <Button Width="30" Height="30" Padding="0" Background="#3F51B5">
+                <Button x:Name="backBtn2" Width="30" Height="30" Padding="0" Background="#3F51B5"
+                        Click="backBtn2_Click">
                     <Image Source="Assets/back.png" Margin="3"/>
                 </Button>
-                <Button Width="30" Height="30" Padding="0" Background="#3F51B5">
+                <Button x:Name="homeBtn2" Width="30" Height="30" Padding="0" Background="#3F51B5"
+                        Click="homeBtn2_Click">
                     <Image Source="Assets/homeOutline.png" Margin="2"/>
                 </Button>
                 <TextBlock Margin="10,0,0,0" VerticalAlignment="Center" Text="EtoI3's Smart Box"
@@ -47,19 +49,15 @@
         </Grid>
 
         <!-- 텍스트박스 -->
-        <!--<Grid Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center">
-            <StackPanel>
-                <TextBox materialDesign:HintAssist.Hint="휴대폰 번호 입력" Width="320" Margin="10,70,0,0">
-                    <TextBox.Text>
-                        <Binding Path="Text2" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <domain:NotEmptyValidationRule ValidatesOnTargetUpdated="False"/>
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </TextBox.Text>
-                </TextBox>
+        <Grid Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center">
+            <StackPanel VerticalAlignment="Bottom">
+                <Grid Width="310" Height="45" Margin="0,0,0,15">
+                    <TextBox x:Name="NumTxtBox2" Width="310" Height="45" CornerRadius="8" Background="White"
+                             PlaceholderText="휴대폰번호를 입력하세요." FontFamily="KoPubDotum Medium"
+                             TextChanged="NumTxtBox2_TextChanged"/>
+                </Grid>
             </StackPanel>
-        </Grid>-->
+        </Grid>
 
         <Grid Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center">
             <Grid.RowDefinitions>
@@ -72,53 +70,65 @@
             <!-- 버튼 첫번째 행 -->
             <StackPanel Orientation="Horizontal" Grid.Row="0">
                 <Button Width="70" Height="53" Margin="10,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="1" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="1" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="2" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="2" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,10,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="3" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="3" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
             </StackPanel>
 
             <!-- 버튼 두번째 행 -->
             <StackPanel Orientation="Horizontal" Grid.Row="1">
                 <Button Width="70" Height="53" Margin="10,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
-                    Content="4" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="4" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="5" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="5" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,10,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="6" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="6" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
             </StackPanel>
 
             <!-- 버튼 세번째 행 -->
             <StackPanel Orientation="Horizontal" Grid.Row="2">
                 <Button Width="70" Height="53" Margin="10,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="7" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="7" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="8" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="8" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,10,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="9" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="9" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
             </StackPanel>
 
             <!-- 버튼 네번째 행 -->
             <StackPanel Orientation="Horizontal" Grid.Row="3">
-                <Button Width="70" Height="53" Margin="10,0,13,0" Background="White"
-                        BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                <Button x:Name="delBtn2" Width="70" Height="53" Margin="10,0,13,0" Background="White"
+                        BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="delBtn2_Click">
                     <Image Source="Assets/backspace2.png" Margin="0,8,4,8"/>
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,13,0" Background="White" FontFamily="KoPubDotum Bold"
-                        Content="0" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22">
+                        Content="0" FontSize="20" BorderBrush="DarkGray" Foreground="Black" CornerRadius="22"
+                        Click="Button_Click">
                 </Button>
-                <Button Width="70" Height="53" Margin="13,0,10,0" Background="#002984" FontFamily="KoPubDotum Bold"
-                        Content="OK" FontSize="18" CornerRadius="22" Foreground="White">
+                <Button x:Name="okBtn2" Width="70" Height="53" Margin="13,0,10,0" Background="#002984" FontFamily="KoPubDotum Bold"
+                        Content="OK" FontSize="18" CornerRadius="22" Foreground="White"
+                        Click="okBtn2_Click">
                 </Button>
             </StackPanel>
         </Grid>

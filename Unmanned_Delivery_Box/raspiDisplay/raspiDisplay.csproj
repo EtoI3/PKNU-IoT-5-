@@ -150,14 +150,14 @@
   <ItemGroup>
     <Content Include="Assets\3f51b5.png" />
     <Content Include="Assets\a9a9a9.png" />
-    <EmbeddedResource Include="Assets\etoi3.png" />
+    <Content Include="Assets\etoi3.png" />
     <Content Include="Assets\back.png" />
     <Content Include="Assets\backspace2.png" />
     <Content Include="Assets\homeOutline.png" />
+    <Content Include="Assets\lockers.png" />
     <Content Include="Assets\package.png" />
     <Content Include="Assets\receiver.png" />
     <Content Include="Assets\sender.png" />
-    <EmbeddedResource Include="Assets\storage.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

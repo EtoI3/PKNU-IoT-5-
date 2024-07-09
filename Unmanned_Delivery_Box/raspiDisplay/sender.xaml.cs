@@ -26,5 +26,63 @@ namespace raspiDisplay
         {
             this.InitializeComponent();
         }
+
+        private void backBtn2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(userType));
+        }
+        private void homeBtn2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = sender as Button;
+            if (button != null)
+            {
+                NumTxtBox2.Text += button.Content.ToString();
+                NumTxtBox2.Focus(FocusState.Programmatic);
+                NumTxtBox2.SelectionStart = NumTxtBox2.Text.Length;
+            }
+        }
+
+        private void NumTxtBox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string currentText = NumTxtBox2.Text.Replace("-", "");
+            
+            if (currentText.Length > 11)
+            {
+                currentText = currentText.Substring(0, 11);
+            }
+            if (currentText.Length >= 4)
+            {
+                currentText = currentText.Insert(3, "-");
+            }
+            if (currentText.Length >= 9)
+            {
+                currentText = currentText.Insert(8, "-");
+            }
+
+            NumTxtBox2.Text = currentText;
+            NumTxtBox2.Focus(FocusState.Programmatic);
+            NumTxtBox2.SelectionStart = NumTxtBox2.Text.Length;
+        }
+
+        private void delBtn2_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(this.NumTxtBox2.Text))
+            {
+                this.NumTxtBox2.Text = this.NumTxtBox2.Text.Substring(0, this.NumTxtBox2.Text.Length - 1);
+                NumTxtBox2.Focus(FocusState.Programmatic);
+                NumTxtBox2.SelectionStart = NumTxtBox2.Text.Length;
+            }
+        }
+
+        private void okBtn2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(numChoice));
+        }
+
     }
 }
