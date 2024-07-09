@@ -131,19 +131,26 @@ namespace smartboxmaui2
 
                 if (snap.Count > 0)
                 {
-                    var document = snap.Documents.FirstOrDefault();
-                    if (document != null)
+                    List<FirebaseProperty> dataList = new List<FirebaseProperty>();
+
+                    foreach (DocumentSnapshot docsnap in snap.Documents)
                     {
-                        var data = document.ConvertTo<FirebaseProperty>();
-                        await DisplayAlert("Success", "보관중인 회원입니다.", "확인");
-                        await Navigation.PushAsync(new MenuPage(data));
-                        return;
+                        if (docsnap.Exists)
+                        {
+                            var data = docsnap.ConvertTo<FirebaseProperty>();
+                            dataList.Add(data);
+                        }
                     }
+
+                    await DisplayAlert("Success", "보관중인 회원입니다.", "확인");
+                    await Navigation.PushAsync(new MenuPage(dataList));
                 }
                 else
                 {
                     await DisplayAlert("Fail", "보관된 물건이 없습니다.", "확인");
                 }
+
+            
             }
             catch (Exception ex)
             {

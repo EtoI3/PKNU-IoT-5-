@@ -1,27 +1,40 @@
+
 namespace smartboxmaui2;
 
 public partial class CodeNumberPage : ContentPage
 {
-    private FirebaseProperty receivedData;
+    private List<FirebaseProperty> receivedDataList;
 
-    public CodeNumberPage(FirebaseProperty data)
+    public CodeNumberPage(List<FirebaseProperty> dataList)
     {
         InitializeComponent();
-        receivedData = data;
+        receivedDataList = dataList;
 
-        // UI가 초기화된 후에 Label의 텍스트를 설정합니다.
-        if (receivedData.BoxNumber.Equals("1") == true) {
-            CodeNumber1.Text = receivedData.Password;
-        }
-        else if (receivedData.BoxNumber.Equals("2") == true){
-            CodeNumber2.Text = receivedData.Password;
-        }
-        else if(receivedData.BoxNumber.Equals("3") == true) {
-            CodeNumber3.Text = receivedData.Password;
-        }
-        else
+
+        Device.BeginInvokeOnMainThread(() =>
         {
-            CodeNumber4.Text = receivedData.Password;
-        }
+            foreach (var data in receivedDataList)
+            {
+                switch (data.BoxNumber)
+                {
+                    case "1":
+                        CodeNumber1.Text = data.Password;
+                        break;
+                    case "2":
+                        CodeNumber2.Text = data.Password;
+                        break;
+                    case "3":
+                        CodeNumber3.Text = data.Password;
+                        break;
+                    case "4":
+                        CodeNumber4.Text = data.Password;
+                        break;
+                    default:
+                        // 예외 처리 또는 로그 추가
+                        break;
+                }
+            }
+        });
+
     }
 }
