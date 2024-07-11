@@ -8,6 +8,14 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     Height="450" Width="800">
+
+    <Page.Resources>
+        <SolidColorBrush x:Key="ButtonBackgroundPointerOver">#002984</SolidColorBrush>
+        <SolidColorBrush x:Key="ButtonBorderBrushPointerOver">#002984</SolidColorBrush>
+        <SolidColorBrush x:Key="ButtonForegroundPointerOver">#ffffff</SolidColorBrush>
+        <SolidColorBrush x:Key="ButtonBackgroundPressed">#002984</SolidColorBrush>
+        <SolidColorBrush x:Key="ButtonForegroundPressed">#ffffff</SolidColorBrush>
+    </Page.Resources>
     
     <Grid Background="White">
         <Grid.ColumnDefinitions>

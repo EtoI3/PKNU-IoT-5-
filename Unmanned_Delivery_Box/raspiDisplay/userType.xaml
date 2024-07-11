@@ -9,6 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     Height="450" Width="800">
 
+    <Page.Resources>
+        <SolidColorBrush x:Key="ButtonBackgroundPointerOver">#ffffff</SolidColorBrush>
+        <SolidColorBrush x:Key="ButtonBorderBrushPointerOver">#a9a9a9</SolidColorBrush>
+        <SolidColorBrush x:Key="ButtonBackgroundPressed">#ffffff</SolidColorBrush>
+        <SolidColorBrush x:Key="ButtonBorderBrushPressed">#a9a9a9</SolidColorBrush>
+    </Page.Resources>
+
     <Grid Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.5*" />

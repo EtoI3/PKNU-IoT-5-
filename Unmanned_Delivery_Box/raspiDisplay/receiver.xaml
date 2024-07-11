@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     Height="450" Width="800">
 
+    
     <Grid Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -23,6 +24,13 @@
 
         <!-- 상단바 -->
         <Grid Grid.Column="0" Grid.ColumnSpan="2" Background="#002984">
+            <Grid.Resources>
+                <SolidColorBrush x:Key="ButtonBackgroundPointerOver">#3f51b5</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBorderBrushPointerOver">#3f51b5</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBackgroundPressed">#3f51b5</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBorderBrushPressed">#3f51b5</SolidColorBrush>
+            </Grid.Resources>
+            
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="backBtn" Width="30" Height="30" Padding="0" Background="#3F51B5"
                         Click="backBtn_Click">
@@ -54,7 +62,7 @@
                 <Grid Width="310" Height="45" Margin="0,0,0,15">
                     <TextBox x:Name="NumTxtBox" Width="310" Height="45" CornerRadius="8" Background="White" 
                              PlaceholderText="인증번호를 입력하세요." FontFamily="KoPubDotum Medium"
-                              TextChanged="NumTxtBox_TextChanged"/>
+                             TextChanged="NumTxtBox_TextChanged"/>
                 </Grid>
             </StackPanel>
         </Grid>
@@ -66,6 +74,13 @@
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
+            
+            <Grid.Resources>
+                <SolidColorBrush x:Key="ButtonBackgroundPointerOver">#ffffff</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBorderBrushPointerOver">#a9a9a9</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBackgroundPressed">#ffffff</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBorderBrushPressed">#a9a9a9</SolidColorBrush>
+            </Grid.Resources>
 
             <!-- 버튼 첫번째 행 -->
             <StackPanel Orientation="Horizontal" Grid.Row="0">
@@ -128,6 +143,14 @@
                 <Button x:Name="okBtn" Width="70" Height="53" Margin="13,0,10,0" Background="#002984"
                         Content="OK" FontSize="18" Foreground="White" FontFamily="KoPubDotum Bold"
                         CornerRadius="22" Click="okBtn_Click">
+                    <Button.Resources>
+                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver">#002984</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonBorderBrushPointerOver">#002984</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonForegroundPointerOver">#ffffff</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonBackgroundPressed">#002984</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonBorderBrushPressed">#002984</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonForegroundPressed">#ffffff</SolidColorBrush>
+                    </Button.Resources>
                 </Button>
             </StackPanel>
         </Grid>

@@ -149,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\3f51b5.png" />
+    <Content Include="Assets\a9a9a9.png" />
     <Content Include="Assets\cccccc.png" />
     <Content Include="Assets\etoi3.png" />
     <Content Include="Assets\back.png" />

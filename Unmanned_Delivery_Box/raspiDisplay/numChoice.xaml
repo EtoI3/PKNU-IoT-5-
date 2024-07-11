@@ -20,6 +20,13 @@
 
         <!-- 상단바 -->
         <Grid Grid.Row="0" Background="#002984">
+            <Grid.Resources>
+                <SolidColorBrush x:Key="ButtonBackgroundPointerOver">#3f51b5</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBorderBrushPointerOver">#3f51b5</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBackgroundPressed">#3f51b5</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBorderBrushPressed">#3f51b5</SolidColorBrush>
+            </Grid.Resources>
+            
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="backBtn3" Width="30" Height="30" Padding="0" Background="#3F51B5"
                         Click="backBtn3_Click">
@@ -58,6 +65,12 @@
                 <RowDefinition Height="0.5*"/>
             </Grid.RowDefinitions>
 
+            <Grid.Resources>
+                <SolidColorBrush x:Key="ButtonBackgroundPointerOver">#3f51b5</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBorderBrushPointerOver">#3f51b5</SolidColorBrush>
+                <SolidColorBrush x:Key="ButtonBackgroundPressed">#3f51b5</SolidColorBrush>
+            </Grid.Resources>
+
             <!-- 버튼 첫번째 행 -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom"
                         Margin="0,0,0,1" Grid.Row="0">
@@ -86,7 +99,15 @@
             <Grid Grid.Row="2">
                 <Button x:Name="nextBtn" Width="150" Height="50" HorizontalAlignment="Right" Margin="0,0,30,10" CornerRadius="25"
                         Background="#002984" Foreground="White" Content="선택완료" FontSize="15" FontFamily="KoPubDotum Bold"
-                        Click="nextBtn_Click"/>
+                        Click="nextBtn_Click">
+                    <Button.Resources>
+                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver">#002984</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonBorderBrushPointerOver">#002984</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonForegroundPointerOver">#ffffff</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonBackgroundPressed">#002984</SolidColorBrush>
+                        <SolidColorBrush x:Key="ButtonForegroundPressed">#ffffff</SolidColorBrush>
+                    </Button.Resources>
+                </Button>
             </Grid>
         </Grid>
     </Grid>

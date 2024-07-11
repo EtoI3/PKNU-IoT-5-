@@ -44,7 +44,6 @@ namespace raspiDisplay
             if (button != null)
             {
                 NumTxtBox.Text += button.Content.ToString();
-                NumTxtBox.Focus(FocusState.Programmatic);
                 NumTxtBox.SelectionStart = NumTxtBox.Text.Length;
             }
         }
@@ -64,7 +63,6 @@ namespace raspiDisplay
             if (!string.IsNullOrEmpty(this.NumTxtBox.Text))
             {
                 this.NumTxtBox.Text = this.NumTxtBox.Text.Substring(0, this.NumTxtBox.Text.Length - 1);
-                NumTxtBox.Focus(FocusState.Programmatic);
                 NumTxtBox.SelectionStart = NumTxtBox.Text.Length;
             }
 
