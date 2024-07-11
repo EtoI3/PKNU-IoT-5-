@@ -29,7 +29,7 @@ namespace raspiDisplay
 
         private void restartBtn_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(receiver));
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }

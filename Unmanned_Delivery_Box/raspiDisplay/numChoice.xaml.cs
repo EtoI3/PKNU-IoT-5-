@@ -44,7 +44,7 @@ namespace raspiDisplay
         {
             Button clickedButton = (Button)sender;
 
-            clickedButton.Background = new SolidColorBrush(Color.FromArgb(255, 169, 169, 169));
+            //clickedButton.Background = new SolidColorBrush(Color.FromArgb(255, 204, 204, 204));
             clickedButton.IsEnabled = false;
 
             if (selectedButton != null && selectedButton != clickedButton)

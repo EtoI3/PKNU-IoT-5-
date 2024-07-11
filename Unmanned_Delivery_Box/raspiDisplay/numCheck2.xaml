@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     Height="450" Width="800">
 
-    <Grid>
+    <Grid Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
@@ -53,18 +53,12 @@
             </StackPanel>
         </Grid>
 
-        <!-- 다시열기 버튼 -->
-        <Grid Grid.Column="1" Grid.Row="2">
-            <Button Content="다시 열기" Width="150" Height="50" FontFamily="KoPubDotum Bold"  BorderBrush="#002984"
-                    FontSize="15" CornerRadius="25" HorizontalAlignment="Center" Background="#F1F1F1">
-            </Button>
-        </Grid>
 
         <!-- 계속하기 버튼 -->
-        <Grid Grid.Column="3" Grid.Row="2">
-            <Button x:Name="restartBtn2" Content="계속 하기" Width="150" Height="50" FontFamily="KoPubDotum Bold" 
+        <Grid Grid.Column="4" Grid.Row="2">
+            <Button x:Name="restartBtn2" Content="처음으로" Width="150" Height="50" FontFamily="KoPubDotum Bold" 
                     FontSize="15" CornerRadius="25" Background="#002984" Foreground="White"
-                     HorizontalAlignment="Center" Click="restartBtn2_Click">
+                    HorizontalAlignment="Center" Click="restartBtn2_Click">
             </Button>
         </Grid>
     </Grid>
