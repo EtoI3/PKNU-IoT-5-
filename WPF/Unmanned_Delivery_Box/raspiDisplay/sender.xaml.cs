@@ -25,6 +25,13 @@ namespace raspiDisplay
             InitializeComponent();
         }
 
+        private void okBtn_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.numChoice choice = new raspiDisplay.numChoice();
+            choice.Show();
+            this.Close();
+        }
+
         //private void backBtn_Click(object sender, RoutedEventArgs e)
         //{
         //    raspiDisplay.userType usertype = new raspiDisplay.userType();

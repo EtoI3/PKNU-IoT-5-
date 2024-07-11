@@ -58,5 +58,12 @@ namespace raspiDisplay
                 NumTxtBox.CaretIndex = NumTxtBox.Text.Length;
             }
         }
+
+        private void ok2Btn_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.numCheck check = new raspiDisplay.numCheck();
+            check.Show();
+            this.Close();
+        }
     }
 }

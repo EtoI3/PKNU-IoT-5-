@@ -66,12 +66,12 @@
             <!-- 첫번째 행 -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom"
                         Margin="0,0,0,1" Grid.Row="0">
-                <Button Width="130" Height="110" Margin="0,0,1,0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                <Button x:Name="btn1" Width="130" Height="110" Margin="0,0,1,0"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="btn1_Click">
                     <TextBlock Text="1" FontSize="15" FontWeight="Bold" Margin="0,0,0,80"/>
                 </Button>
-                <Button Width="130" Height="110" Margin="1,0,0,0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                <Button x:Name="btn2" Width="130" Height="110" Margin="1,0,0,0"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="btn2_Click">
                     <TextBlock Text="2" FontSize="15" FontWeight="Bold" Margin="0,0,0,80"/>
                 </Button>
             </StackPanel>
@@ -79,12 +79,12 @@
             <!-- 두번째 행 -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top"
                         Grid.Row="1">
-                <Button Width="130" Height="110" Margin="0,1,1,0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                <Button x:Name="btn3" Width="130" Height="110" Margin="0,1,1,0"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="btn3_Click">
                     <TextBlock Text="3" FontSize="15" FontWeight="Bold" Margin="0,0,0,80"/>
                 </Button>
-                <Button Width="130" Height="110" Margin="1,0,0,0"
-                        Style="{StaticResource MaterialDesignFlatMidBgButton}">
+                <Button x:Name="btn4" Width="130" Height="110" Margin="1,0,0,0"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="btn4_Click">
                     <TextBlock Text="4" FontSize="15" FontWeight="Bold" Margin="0,0,0,80"/>
                 </Button>
             </StackPanel>

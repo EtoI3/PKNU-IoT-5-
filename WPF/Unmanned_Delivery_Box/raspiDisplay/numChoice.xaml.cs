@@ -24,9 +24,32 @@ namespace raspiDisplay
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btn1_Click(object sender, RoutedEventArgs e)
         {
-            
+            raspiDisplay.numCheck2 check = new raspiDisplay.numCheck2();
+            check.Show();
+            this.Close();
+        }
+
+        private void btn2_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.numCheck2 check = new raspiDisplay.numCheck2();
+            check.Show();
+            this.Close();
+        }
+
+        private void btn3_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.numCheck2 check = new raspiDisplay.numCheck2();
+            check.Show();
+            this.Close();
+        }
+
+        private void btn4_Click(object sender, RoutedEventArgs e)
+        {
+            raspiDisplay.numCheck2 check = new raspiDisplay.numCheck2();
+            check.Show();
+            this.Close();
         }
     }
 }

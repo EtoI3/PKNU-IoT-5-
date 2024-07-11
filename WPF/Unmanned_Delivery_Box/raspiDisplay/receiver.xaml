@@ -142,9 +142,9 @@
                         materialDesign:ButtonAssist.CornerRadius="22" Click="Button_Click" Tag="0">
                 </Button>
                 <Button Width="70" Height="53" Margin="13,0,10,0"
-                        Content="OK" FontSize="18"
+                        Content="OK" FontSize="18" x:Name="ok2Btn"
                         Style="{StaticResource MaterialDesignRaisedDarkButton}"
-                        materialDesign:ButtonAssist.CornerRadius="22">
+                        materialDesign:ButtonAssist.CornerRadius="22" Click="ok2Btn_Click">
                 </Button>
             </StackPanel>
         </Grid>
