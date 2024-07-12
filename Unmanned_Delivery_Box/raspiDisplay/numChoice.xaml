@@ -74,11 +74,11 @@
             <!-- 버튼 첫번째 행 -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom"
                         Margin="0,0,0,1" Grid.Row="0">
-                <Button Width="130" Height="110" Margin="0,0,1,0" CornerRadius="5" Background="#3F51B5"
+                <Button x:Name="box1" Width="130" Height="110" Margin="0,0,1,0" CornerRadius="5" Background="#3F51B5"
                         Click="Button_Click">
                     <TextBlock Text="1" FontSize="15" Margin="0,0,0,80" Foreground="White" FontFamily="KoPubDotum Bold"/>
                 </Button>
-                <Button Width="130" Height="110" Margin="1,0,0,0" CornerRadius="5" Background="#3F51B5"
+                <Button x:Name="box2" Width="130" Height="110" Margin="1,0,0,0" CornerRadius="5" Background="#3F51B5"
                         Click="Button_Click">
                     <TextBlock Text="2" FontSize="15" Margin="0,0,0,80" Foreground="White"  FontFamily="KoPubDotum Bold"/>
                 </Button>
@@ -86,11 +86,11 @@
 
             <!-- 버튼 두번째 행 -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1">
-                <Button Width="130" Height="110" Margin="0,1,1,0" CornerRadius="5" Background="#3F51B5"
+                <Button x:Name="box3" Width="130" Height="110" Margin="0,1,1,0" CornerRadius="5" Background="#3F51B5"
                         Click="Button_Click">
                     <TextBlock Text="3" FontSize="15" Margin="0,0,0,80" Foreground="White"  FontFamily="KoPubDotum Bold"/>
                 </Button>
-                <Button Width="130" Height="110" Margin="1,0,0,0" CornerRadius="5" Background="#3F51B5"
+                <Button x:Name="box4" Width="130" Height="110" Margin="1,0,0,0" CornerRadius="5" Background="#3F51B5"
                         Click="Button_Click">
                     <TextBlock Text="4" FontSize="15" Margin="0,0,0,80" Foreground="White"  FontFamily="KoPubDotum Bold"/>
                 </Button>

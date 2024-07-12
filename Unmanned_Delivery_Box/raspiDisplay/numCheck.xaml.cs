@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using raspiDisplay.Helpers;
 
 // 빈 페이지 항목 템플릿에 대한 설명은 https://go.microsoft.com/fwlink/?LinkId=234238에 나와 있습니다.
 
@@ -22,14 +23,30 @@ namespace raspiDisplay
     /// </summary>
     public sealed partial class numCheck : Page
     {
+        int boxNumber;
+        private FirestoreHelper firestoreHelper;
         public numCheck()
         {
             this.InitializeComponent();
+            firestoreHelper = new FirestoreHelper();
         }
 
-        private void restartBtn_Click(object sender, RoutedEventArgs e)
+        private async void restartBtn_Click(object sender, RoutedEventArgs e)
         {
+            bool deleteSuccess = await firestoreHelper.DeleteBoxDataAsync(boxNumber.ToString());
+            firestoreHelper.ShowMessage("알림", $"{boxNumber}번 박스의 데이터가 삭제되었습니다.");
+
             Frame.Navigate(typeof(MainPage));
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            boxNumber = (int)e.Parameter;
+            TextN.Text = boxNumber.ToString();
+            TextN.FontSize = 30;
+
+        }
+
     }
 }

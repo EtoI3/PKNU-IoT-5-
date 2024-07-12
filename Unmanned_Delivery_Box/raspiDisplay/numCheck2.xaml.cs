@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
 // 빈 페이지 항목 템플릿에 대한 설명은 https://go.microsoft.com/fwlink/?LinkId=234238에 나와 있습니다.
 
 namespace raspiDisplay
@@ -22,14 +23,30 @@ namespace raspiDisplay
     /// </summary>
     public sealed partial class numCheck2 : Page
     {
+
+        string BoxNum;
         public numCheck2()
         {
+            
             this.InitializeComponent();
         }
 
         private void restartBtn2_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage));
+
         }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            BoxNum = e.Parameter as string;
+            TextN.Text = BoxNum;
+            TextN.FontSize = 30;
+
+        }
+        
+
+        
+
     }
 }

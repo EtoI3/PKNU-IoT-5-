@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using raspiDisplay.Helpers;
+using Windows.UI.Popups;
 
 // 빈 페이지 항목 템플릿에 대한 설명은 https://go.microsoft.com/fwlink/?LinkId=234238에 나와 있습니다.
 
@@ -22,9 +24,13 @@ namespace raspiDisplay
     /// </summary>
     public sealed partial class userType : Page
     {
+        private string phoneNumber;
+        private FirestoreHelper firestoreHelper;
+
         public userType()
         {
             this.InitializeComponent();
+            firestoreHelper = new FirestoreHelper();
         }
 
         private void receiverBtn_Click(object sender, RoutedEventArgs e)
@@ -32,9 +38,27 @@ namespace raspiDisplay
             Frame.Navigate(typeof(receiver));
         }
 
-        private void senderBtn_Click(object sender, RoutedEventArgs e)
+        private async void senderBtn_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(sender));
+            bool allBoxesFilled = await firestoreHelper.AreAllBoxesFilledAsync(4);
+            if (allBoxesFilled)
+            {
+                firestoreHelper.ShowMessage("알림", "모든 박스가 이미 저장되었습니다.");
+            }
+            else
+            {
+                Frame.Navigate(typeof(sender));
+
+            }
+
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            phoneNumber = e.Parameter as string;  // 이전 페이지에서 넘어온 전화번호
+        }
+
+        
     }
 }
