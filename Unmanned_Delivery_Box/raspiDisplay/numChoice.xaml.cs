@@ -10,6 +10,9 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using raspiDisplay.Helpers;
 using System.Security.Cryptography;
+using Windows.Devices.SerialCommunication;
+using Windows.Storage.Streams;
+using Windows.Devices.Enumeration;
 
 namespace raspiDisplay
 {
@@ -21,13 +24,16 @@ namespace raspiDisplay
         private FirestoreHelper firestoreHelper;
         private static Random random = new Random();
 
-
+        // 시리얼 통신 전역변수
+        private SerialDevice serialPort = null;
+        private DataWriter dataWriter = null;
 
         public numChoice()
         {
             this.InitializeComponent();
             firestoreHelper = new FirestoreHelper();
             LoadButtonStates();
+            InitializeSerialPort();
         }
 
         public static string GenerateRandomNumber()
@@ -42,8 +48,6 @@ namespace raspiDisplay
             dialog.Commands.Add(new UICommand("OK"));
             await dialog.ShowAsync();
         }
-
-        
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -126,10 +130,55 @@ namespace raspiDisplay
             await firestoreHelper.SaveDataAsync(phoneNumber, selectedButtonNumber, RandNum);
         }
 
-        private void nextBtn_Click(object sender, RoutedEventArgs e)
+        
+
+        #region "시리얼 통신"
+        private async void InitializeSerialPort()
+        {
+            try
+            {
+                string selector = SerialDevice.GetDeviceSelector("COM3");
+                var devices = await DeviceInformation.FindAllAsync(selector);
+                if (devices.Count > 0)
+                {
+                    serialPort = await SerialDevice.FromIdAsync(devices[0].Id);
+                    if (serialPort != null)
+                    {
+                        serialPort.BaudRate = 9600;
+                        serialPort.DataBits = 8;
+                        serialPort.Parity = SerialParity.None;
+                        serialPort.StopBits = SerialStopBitCount.One;
+                        serialPort.Handshake = SerialHandshake.None;
+
+                        dataWriter = new DataWriter(serialPort.OutputStream);
+                        string title = "SUCCESS";
+                        string text = "Serial port initialized successfully.";
+                        ShowMessage(title, text);
+                    }
+                }
+                else
+                {
+                    string title = "ERROR";
+                    string text = "No serial devices found.";
+                    ShowMessage(title, text);
+                }
+            }
+            catch (Exception ex)
+            {
+                string title = "ERROR";
+                string text = "Error initializing serial port: " + ex.Message;
+                ShowMessage(title, text);
+            }
+        }
+
+        private async void nextBtn_Click(object sender, RoutedEventArgs e)
         {
             if (!string.IsNullOrEmpty(selectedButtonNumber))
             {
+                await SendSerialData("1");
+                string title = "SUCCESS";
+                string text = "문이 열렸습니다!";
+                ShowMessage(title, text);
                 SaveDataToFirestore();
                 Frame.Navigate(typeof(numCheck2), selectedButtonNumber);
             }
@@ -139,6 +188,45 @@ namespace raspiDisplay
             }
         }
 
-        
+        private async Task SendSerialData(string data)
+        {
+            if (serialPort != null)
+            {
+                try
+                {
+                    dataWriter.WriteString(data);
+                    await dataWriter.StoreAsync();
+                    string title = "SUCCESS";
+                    string text = "Data sent: " + data;
+                    ShowMessage(title, text);
+                }
+                catch (Exception ex)
+                {
+                    string title = "ERROR";
+                    string text = "Failed to send data: " + ex.Message;
+                    ShowMessage(title, text);
+                }
+            }
+            else
+            {
+                string title = "ERROR";
+                string text = "Serial port is not initialized.";
+                ShowMessage(title, text);
+            }
+        }
+
+        protected override void OnNavigatedFrom(Windows.UI.Xaml.Navigation.NavigationEventArgs e)
+        {
+            dataWriter?.DetachStream();
+            dataWriter = null;
+
+            serialPort?.Dispose();
+            serialPort = null;
+
+            base.OnNavigatedFrom(e);
+        }
+        #endregion
+
+
     }
 }
