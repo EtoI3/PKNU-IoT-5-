@@ -45,25 +45,7 @@ namespace raspiDisplay
 
             await dialog.ShowAsync();
         }
-
-        //private void InitializeFirebase()
-        //{
-        //    string pathToCredentialFile = @"favoritmovie2024-firebase-adminsdk-qfvd8-df4e676874.json";
-
-        //    try
-        //    {
-        //        // Firestore 초기화
-        //        Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", pathToCredentialFile);
-        //        db = FirestoreDb.Create("favoritmovie2024");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        ShowMessage("오류", $"Error initializing Firestore: {ex.Message}");
-        //    }
-        //}
-
-
-
+                
         private void backBtn2_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(userType));
@@ -79,7 +61,7 @@ namespace raspiDisplay
             if (button != null)
             {
                 NumTxtBox2.Text += button.Content.ToString();
-                NumTxtBox2.Focus(FocusState.Programmatic);
+                //NumTxtBox2.Focus(FocusState.Programmatic);
                 NumTxtBox2.SelectionStart = NumTxtBox2.Text.Length;
             }
         }
@@ -102,16 +84,18 @@ namespace raspiDisplay
             }
 
             NumTxtBox2.Text = currentText;
-            NumTxtBox2.Focus(FocusState.Programmatic);
+            //NumTxtBox2.Focus(FocusState.Programmatic);
             NumTxtBox2.SelectionStart = NumTxtBox2.Text.Length;
+
+
         }
 
         private void delBtn2_Click(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrEmpty(this.NumTxtBox2.Text))
+            if (!string.IsNullOrEmpty(this.NumTxtBox2.Text) && this.NumTxtBox2.Text.Length > 3)
             {
                 this.NumTxtBox2.Text = this.NumTxtBox2.Text.Substring(0, this.NumTxtBox2.Text.Length - 1);
-                NumTxtBox2.Focus(FocusState.Programmatic);
+                //NumTxtBox2.Focus(FocusState.Programmatic);
                 NumTxtBox2.SelectionStart = NumTxtBox2.Text.Length;
             }
         }
@@ -127,5 +111,9 @@ namespace raspiDisplay
             Frame.Navigate(typeof(numChoice), inputData);
         }
 
+        private void NumTxtBox2_Loaded(object sender, RoutedEventArgs e)
+        {
+            NumTxtBox2.Text = "010";
+        }
     }
 }
