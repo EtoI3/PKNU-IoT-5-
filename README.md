@@ -42,7 +42,7 @@
        <td align="center">🔼 받는 사람 인증번호 입력</td>
     </tr>
 </table>
-<br><br>
+<br>
 <table>
     <tr height="140px">
         <td align="center" ><img width="500px" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/> </td>
@@ -55,7 +55,7 @@
        <td align="center">🔼 물품 회수 안내창</td>
     </tr>
 </table>
-<br><br>
+<br>
 
 
 
