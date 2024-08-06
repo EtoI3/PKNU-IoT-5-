@@ -28,26 +28,12 @@
 
 ## 📌 프로젝트 결과
 #### UI 화면 설명
-<style>
-  table {
-    width: 100%;
-    table-layout: fixed;
-  }
-  td {
-    width: 25%;
-  }
-  img {
-    width: 100%;
-    height: auto;
-  }
-</style>
-
 <table>
-    <tr>
-        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
-        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
-        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/></td>
-        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
+    <tr width="100%">
+        <td align="center" ><img src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
+        <td align="center" ><img src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
+        <td align="center" ><img src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/></td>
+        <td align="center" ><img src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
     <tr/>
     <tr>
        <td align="center">🔼 메인 페이지</td>
@@ -58,10 +44,10 @@
 </table>
 
 <table>
-    <tr>
-        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/> </td>
-        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/> </td>
-        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
+    <tr width=100%>
+        <td align="center" ><img src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/> </td>
+        <td align="center" ><img src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/> </td>
+        <td align="center" ><img src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
     <tr/>
     <tr>
        <td align="center">🔼 보관함 번호 선택</td>
