@@ -45,9 +45,9 @@
 
 <table>
     <tr>
-        <td align="center" ><img width="750" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/> </td>
-        <td align="center" ><img width="750" src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/> </td>
-        <td align="center" ><img width="750" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
+        <td align="center" ><img width="550px" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/> </td>
+        <td align="center" ><img width="550px" src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/> </td>
+        <td align="center" ><img width="550px" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
     <tr/>
     <tr>
        <td align="center">🔼 보관함 번호 선택</td>
