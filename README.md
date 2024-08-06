@@ -30,7 +30,7 @@
 #### UI 화면 설명
 <table>
     <tr>
-        <td align="center" ><img width="750" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
+        <td align="center" ><img width="750" Height="600" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
         <td align="center" ><img width="750" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
         <td align="center" ><img width="750" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/></td>
         <td align="center" ><img width="750" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
