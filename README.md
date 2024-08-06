@@ -28,7 +28,7 @@
 
 ## 📌 프로젝트 결과
 #### UI 화면 설명
-<table>
+<!-- <table>
     <tr>
         <td align="center" ><img width="500" Height="200" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
         <td align="center" ><img width="500" Height="200" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
@@ -53,7 +53,7 @@
        <td align="center">🔼 물품 보관 안내창</td>
        <td align="center">🔼 물품 회수 안내창</td>
     </tr>
-</table>
+</table> -->
 
 <table>
     <tr height="140px">
