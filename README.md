@@ -26,41 +26,18 @@
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/oj.png" height="150" width="140">|오혜진|[팀원] <br> - 모바일 앱 개발자 <br> - UI/UX 디자이너|- MAUI을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발 |
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/hj.png" height="150" width="140">|김현지|[팀원] <br> - 소프트웨어 개발자 <br> - UI/UX 디자이너|- UWP을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발|
 
-## 📌 프로젝트 결과
-#### 💻 UI 화면 설명
-<table>
-    <tr>
-        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
-        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
-        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/></td>
-    </tr>
-    <tr>
-       <td align="center">🔼 메인 페이지</td>
-       <td align="center">🔼 사용자유형 선택</td>
-       <td align="center">🔼 수취인 번호입력</td>
-    </tr>
-</table>
-<table>
-    <tr>
-        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
-        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/></td>
-        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/></td>
-    </tr>
-    <tr>
-       <td align="center">🔼 수령인 인증번호 입력</td>
-       <td align="center">🔼 보관함 번호 선택</td>
-       <td align="center">🔼 물품 보관 안내창</td>
-    </tr>
-</table>
-<table>
-    <tr>
-        <td align="center"><img width="245px" height="auto" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/></td>
-    </tr>
-    <tr>
-       <td align="center">🔼 물품 회수 안내창</td>
-    </tr>
-</table>
+## 📌 주요기능
+### 🔎소프트웨어 부분
+- 
 
+
+### ⚙️ 하드웨어 부분
+- 라즈베리파이 / 아두이노
+  - 물품보관함 시스템의 중앙 제어 장치로 사용
+- 라즈베리파이 터치스크린 디스플레이
+  - UWP의 인터페이스 창을 화면에 출력
+
+## 💻 UI 화면 설명
 <!-- 마우이 넣으세요 <table>
     <tr height="140px">
         <td align="center" ><img width="300px" src="img/로그인 페이지.png"/></td>
@@ -132,14 +109,35 @@
     </tr>
 </table>-->
 
-#### ⚙️ 하드웨어 설명
-|구분|내용|
-|------|---|
-|Raspberry Pi & Arduino|보관함 시스템의 중앙 제어 장치로 사용됩니다.|
-|디스플레이 모듈|사용자 인터페이스를 표시하기 위해 사용됩니다.|
-
-[소프트웨어]
-
-
-
-
+<table>
+    <tr>
+        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
+        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
+        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/></td>
+    </tr>
+    <tr>
+       <td align="center">🔼 메인 페이지</td>
+       <td align="center">🔼 사용자유형 선택</td>
+       <td align="center">🔼 수취인 번호입력</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
+        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/></td>
+        <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/></td>
+    </tr>
+    <tr>
+       <td align="center">🔼 수령인 인증번호 입력</td>
+       <td align="center">🔼 보관함 번호 선택</td>
+       <td align="center">🔼 물품 보관 안내창</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td align="center"><img width="245px" height="auto" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/></td>
+    </tr>
+    <tr>
+       <td align="center">🔼 물품 회수 안내창</td>
+    </tr>
+</table>
