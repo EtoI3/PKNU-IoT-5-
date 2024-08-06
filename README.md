@@ -36,13 +36,13 @@
         <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
     <tr/>
     <tr>
-       <td align="center">🔼 소셜 로그인</td>
        <td align="center">🔼 메인 페이지</td>
-       <td align="center">🔼 사용자 키, 몸무게 정보 입력</td>
-       <td align="center">🔼 사용자 생년월일, 성별 정보 입력</td>
+       <td align="center">🔼 사용자유형 선택 페이지</td>
+       <td align="center">🔼 보내는 사람 번호입력</td>
+       <td align="center">🔼 받는 사람 인증번호 입력</td>
     </tr>
 </table>
-<br><br><br>
+<br><br>
 <table>
     <tr height="140px">
         <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/> </td>
@@ -50,13 +50,12 @@
         <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
     <tr/>
     <tr>
-       <td align="center">🔼 플로깅 시간, 거리, 칼로리 측정</td>
-       <td align="center">🔼 플로깅 이동경로 기록</td>
-       <td align="center">🔼 쓰레기통 조회 화면</td>
-       <td align="center">🔼 쓰레기 분석 화면</td>
+       <td align="center">🔼 보관함 번호 선택</td>
+       <td align="center">🔼 물품 보관 안내창</td>
+       <td align="center">🔼 물품 회수 안내창</td>
     </tr>
 </table>
-<br><br><br>
+<br><br>
 
 
 
