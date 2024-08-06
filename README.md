@@ -4,7 +4,7 @@
 - 사용자가 디스플레이를 통해 정보를 입력하여 물건을 안전하게 보관
 - 애플리케이션을 통해 비밀번호를 확인하여 보관함 열기 가능
 
-## 🧾 기술스택
+## 🛠️ 기술스택
 ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat-square&logo=Csharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=C%2B%2B&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
