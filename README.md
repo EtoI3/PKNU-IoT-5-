@@ -27,11 +27,37 @@
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/hj.png" height="150" width="140">|김현지|[팀원] <br> - 소프트웨어 개발자 <br> - UI/UX 디자이너|- UWP을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발|
 
 ## 💡 프로젝트 결과
+[UI 화면 설명]
+<table>
+    <tr height="140px">
+        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
+        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
+        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/></td>
+        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
+    <tr/>
+    <tr>
+       <td align="center">🔼 소셜 로그인</td>
+       <td align="center">🔼 메인 페이지</td>
+       <td align="center">🔼 사용자 키, 몸무게 정보 입력</td>
+       <td align="center">🔼 사용자 생년월일, 성별 정보 입력</td>
+    </tr>
+</table>
+<br><br><br>
+<table>
+    <tr height="140px">
+        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/> </td>
+        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/> </td>
+        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
+    <tr/>
+    <tr>
+       <td align="center">🔼 플로깅 시간, 거리, 칼로리 측정</td>
+       <td align="center">🔼 플로깅 이동경로 기록</td>
+       <td align="center">🔼 쓰레기통 조회 화면</td>
+       <td align="center">🔼 쓰레기 분석 화면</td>
+    </tr>
+</table>
+<br><br><br>
 
-[UI/UX 디자인]
-- figma를 이용해 휴대폰 어플리케이션과 라즈베리파이 디스플레이 디자인 계획
-- 
-  <img src="https://github.com/user-attachments/assets/76dde8ae-9a39-40cb-ac2c-db24b6c909a5" width="90%">
 
 
 
