@@ -28,6 +28,20 @@
 
 ## 📌 프로젝트 결과
 #### UI 화면 설명
+<style>
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  td {
+    width: 25%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+</style>
+
 <table>
     <tr>
         <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
