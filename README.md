@@ -38,8 +38,8 @@
     <tr>
        <td align="center">🔼 메인 페이지</td>
        <td align="center">🔼 사용자유형 선택</td>
-       <td align="center">🔼 보내는 사람 번호입력</td>
-       <td align="center">🔼 받는 사람 인증번호 입력</td>
+       <td align="center">🔼 보내는사람 번호입력</td>
+       <td align="center">🔼 받는사람 인증번호 입력</td>
     </tr>
 </table>
 
