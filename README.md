@@ -1,9 +1,18 @@
 # 📦 Smart Box : 스마트 보관함 IoT 애플리케이션 개발
-> 사용자가 디스플레이를 통해 정보를 입력하여 물건을 안전하게 보관 <br>
-> 애플리케이션을 통해 비밀번호를 확인하여 보관함 열기 가능 <br>
 
-## 🧾 프로젝트 배경
-- 아파트 등의 공동주거 형태가 아닌 주택가 등은 택배 분실이 잦아, 지역 내 공동 보관함을 통해 택배물품 보관 및 수거의 안전성을 높임
+## 🧾 프로젝트 개요
+- 사용자가 디스플레이를 통해 정보를 입력하여 물건을 안전하게 보관
+- 애플리케이션을 통해 비밀번호를 확인하여 보관함 열기 가능
+
+## 🧾 기술스택
+![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat-square&logo=Csharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=C%2B%2B&logoColor=white)
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
+![MAUI](https://img.shields.io/badge/MAUI-00008B?style=flat-square&logo=MAUI&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-a08021?style=flat-square&logo=firebase&logoColor=ffcd34)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=flat-square&logo=Raspberry-Pi)
 
 ## 🧑‍💻역할분담
 
@@ -15,15 +24,6 @@
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/oj.png" height="150" width="140">|오혜진|[팀원] <br> - 모바일 앱 개발자 <br> - UI/UX 디자이너|- MAUI을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발 |
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/hj.png" height="150" width="140">|김현지|[팀원] <br> - 소프트웨어 개발자 <br> - UI/UX 디자이너|- UWP을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발|
 
-## 🧾 기술스택
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat-square&logo=Csharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=C%2B%2B&logoColor=white)
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
-![MAUI](https://img.shields.io/badge/MAUI-00008B?style=flat-square&logo=MAUI&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-a08021?style=flat-square&logo=firebase&logoColor=ffcd34)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=flat-square&logo=Raspberry-Pi)
 
 [하드웨어]
 |구분|내용|
