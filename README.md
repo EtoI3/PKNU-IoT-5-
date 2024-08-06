@@ -53,8 +53,8 @@
     </tr>
 </table>
 <table>
-    <tr width="100px">
-        <td align="center" ><img Height="200px" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
+    <tr width="600">
+        <td align="center" ><img Height="400" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
     <tr/>
     <tr>
        <td align="center">🔼 물품 회수 안내창</td>
