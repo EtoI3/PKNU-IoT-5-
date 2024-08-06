@@ -28,7 +28,7 @@
 
 ## 📌 프로젝트 결과
 #### UI 화면 설명
-<!-- <table>
+<table>
     <tr>
         <td align="center" ><img width="500" Height="200" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
         <td align="center" ><img width="500" Height="200" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
@@ -42,6 +42,7 @@
        <td align="center">🔼 수령인 인증번호 입력</td>
     </tr>
 </table>
+<br><br><br>
 <table>
     <tr>
         <td align="center" ><img width="500" Height="200" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/> </td>
@@ -53,64 +54,9 @@
        <td align="center">🔼 물품 보관 안내창</td>
        <td align="center">🔼 물품 회수 안내창</td>
     </tr>
-</table> -->
+</table>
+<br><br><br>
 
-<table>
-    <tr height="140px">
-        <td align="center" ><img width="300px" src=""/></td>
-        <td align="center" ><img width="300px" src=""/></td>
-        <td align="center" ><img width="300px" src=""/></td>
-        <td align="center" ><img width="300px" src=""/></td>
-    <tr/>
-    <tr>
-       <td align="center">🔼 소셜 로그인</td>
-       <td align="center">🔼 메인 페이지</td>
-       <td align="center">🔼 사용자 키, 몸무게 정보 입력</td>
-       <td align="center">🔼 사용자 생년월일, 성별 정보 입력</td>
-    </tr>
-</table>
-<table>
-    <tr height="140px">
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-    <tr/>
-    <tr>
-       <td align="center">🔼 플로깅 시간, 거리, 칼로리 측정</td>
-       <td align="center">🔼 플로깅 이동경로 기록</td>
-       <td align="center">🔼 쓰레기통 조회 화면</td>
-       <td align="center">🔼 쓰레기 분석 화면</td>
-    </tr>
-</table>
-<table>
-    <tr height="140px">
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-    <tr/>
-    <tr>
-       <td align="center">🔼 플로깅 결과 화면</td>
-       <td align="center">🔼 플로깅 기록 캘린더</td>
-       <td align="center">🔼 플로깅 일별 조회</td>
-       <td align="center">🔼 플로깅 일일 레포트</td>
-    </tr>
-</table>
-<table>
-    <tr height="140px">
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-        <td align="center" ><img width="300px" src=""/> </td>
-    <tr/>
-    <tr>
-       <td align="center">🔼 마이페이지(라이트 모드)</td>
-       <td align="center">🔼 마이페이지(다크 모드)</td>
-       <td align="center">🔼 다음 레벨</td>
-       <td align="center">🔼 누적 레포트</td>
-    </tr>
-</table>
 
 
 
