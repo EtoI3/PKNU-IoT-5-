@@ -53,7 +53,7 @@
     </tr>
 </table>
 <table>
-    <tr width="300">
+    <tr width="250">
         <td align="center" ><img Height="200px" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/> </td>
     <tr/>
     <tr>
