@@ -61,6 +61,76 @@
     </tr>
 </table>
 
+<!-- 마우이 넣으세요 <table>
+    <tr height="140px">
+        <td align="center" ><img width="300px" src="img/로그인 페이지.png"/></td>
+        <td align="center" ><img width="300px" src="img/메인 화면.png"/></td>
+        <td align="center" ><img width="300px" src="img/키몸무게.png"/></td>
+        <td align="center" ><img width="300px" src="img/성별 출생년도.png"/></td>
+    <tr/>
+    <tr>
+       <td align="center">🔼 소셜 로그인</td>
+       <td align="center">🔼 메인 페이지</td>
+       <td align="center">🔼 사용자 키, 몸무게 정보 입력</td>
+       <td align="center">🔼 사용자 생년월일, 성별 정보 입력</td>
+    </tr>
+</table>
+<table>
+    <tr height="140px">
+        <td align="center" ><img width="300px" src="img/플로깅 중 플로깅 정보 화면.png"/> </td>
+        <td align="center" ><img width="300px" src="img/플로깅중지도.png"/> </td>
+        <td align="center" ><img width="300px" src="img/쓰레기통 조회 화면.png"/> </td>
+        <td align="center" ><img width="300px" src="img/쓰레기 분석 화면.png"/> </td>
+    <tr/>
+    <tr>
+       <td align="center">🔼 플로깅 시간, 거리, 칼로리 측정</td>
+       <td align="center">🔼 플로깅 이동경로 기록</td>
+       <td align="center">🔼 쓰레기통 조회 화면</td>
+       <td align="center">🔼 쓰레기 분석 화면</td>
+    </tr>
+</table>
+<table>
+    <tr height="140px">
+        <td align="center" ><img width="300px" src="img/플로깅 결과.png"/> </td>
+        <td align="center" ><img width="300px" src="img/플로깅 기록 캘린더.png"/> </td>
+        <td align="center" ><img width="300px" src="img/일별 기록 조회 페이지.png"/> </td>
+        <td align="center" ><img width="300px" src="img/일일레포트.png"/> </td>
+    <tr/>
+    <tr>
+       <td align="center">🔼 플로깅 결과 화면</td>
+       <td align="center">🔼 플로깅 기록 캘린더</td>
+       <td align="center">🔼 플로깅 일별 조회</td>
+       <td align="center">🔼 플로깅 일일 레포트</td>
+    </tr>
+</table>
+<table>
+    <tr height="140px">
+        <td align="center" ><img width="300px" src="img/마이페이지.png"/> </td>
+        <td align="center" ><img width="300px" src="img/다크.png"/> </td>
+        <td align="center" ><img width="300px" src="img/레벨업.png"/> </td>
+        <td align="center" ><img width="300px" src="img/누적레포트.png"/> </td>
+    <tr/>
+    <tr>
+       <td align="center">🔼 마이페이지(라이트 모드)</td>
+       <td align="center">🔼 마이페이지(다크 모드)</td>
+       <td align="center">🔼 다음 레벨</td>
+       <td align="center">🔼 누적 레포트</td>
+    </tr>
+</table>
+<table>
+    <tr height="140px">
+        <td align="center" ><img width="300px" src="./img/상점.png"/> </td>
+        <td align="center" ><img width="300px" src="./img/아이템.png"/> </td>
+        <td align="center" ><img width="300px" src="./img/image 119.png"/> </td>
+        <td align="center" ><img width="300px" src="./img/설정화면.png"/> </td>
+    <tr/>
+    <tr>
+       <td align="center">🔼 상점</td>
+       <td align="center">🔼 아이템</td>
+       <td align="center">🔼 아이템 구매</td>
+       <td align="center">🔼 설정화면</td>
+    </tr>
+</table>-->
 
 
 [하드웨어]
