@@ -27,10 +27,10 @@
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/hj.png" height="150" width="140">|김현지|[팀원] <br> - 소프트웨어 개발자 <br> - UI/UX 디자이너|- UWP을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발|
 
 ## 💡 프로젝트 결과
+
 [UI/UX 디자인]
 - figma를 이용해 휴대폰 어플리케이션과 라즈베리파이 디스플레이 디자인 계획
-
-![Figma](https://github.com/user-attachments/assets/76dde8ae-9a39-40cb-ac2c-db24b6c909a5)
+  <img src="https://github.com/user-attachments/assets/76dde8ae-9a39-40cb-ac2c-db24b6c909a5" width="100px">
 
 
 
