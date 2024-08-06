@@ -30,7 +30,8 @@
 
 [UI/UX 디자인]
 - figma를 이용해 휴대폰 어플리케이션과 라즈베리파이 디스플레이 디자인 계획
-  <img src="https://github.com/user-attachments/assets/76dde8ae-9a39-40cb-ac2c-db24b6c909a5" width="100px">
+- 
+  <img src="https://github.com/user-attachments/assets/76dde8ae-9a39-40cb-ac2c-db24b6c909a5" width="100%">
 
 
 
