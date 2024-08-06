@@ -1,4 +1,4 @@
-# PKNU-IoT-EtoI3 :5조 프로젝트
+# PKNU-IoT-EtoI3 : 5조 프로젝트
 ### 📦 Smart Box : 스마트 보관함 IoT 애플리케이션 개발
 
 ## 🧾 프로젝트 개요
