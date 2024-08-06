@@ -17,7 +17,7 @@
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/hj.png" height="150" width="140">|김현지|[팀원] <br> - 소프트웨어 개발자 <br> - UI/UX 디자이너|- UWP을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발|
 
 ## 🧾 기술스택
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat-square&logo=C-Sharp&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat-square&logo=Csharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=C%2B%2B&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
 ![MAUI](https://img.shields.io/badge/MAUI-00008B?style=flat-square&logo=MAUI&logoColor=white)
