@@ -26,14 +26,14 @@
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/oj.png" height="150" width="140">|오혜진|[팀원] <br> - 모바일 앱 개발자 <br> - UI/UX 디자이너|- MAUI을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발 |
 |<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/hj.png" height="150" width="140">|김현지|[팀원] <br> - 소프트웨어 개발자 <br> - UI/UX 디자이너|- UWP을 이용한 클로스 플랫폼 애플리케이션 개발 <br> - 사용자 인터페이스 개발 및 사용성 향상에 중점을 둔 기능 구현 <br> - 사용자 경험 및 인터페이스 디자인 담당 <br> - 모바일 앱과 웹 인터페이스의 시각적 및 기능적 디자인 개발|
 
-## 💡 프로젝트 결과
-[UI 화면 설명]
+## 📌 프로젝트 결과
+### UI 화면 설명
 <table>
     <tr height="140px">
-        <td align="center" ><img width="900px" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
-        <td align="center" ><img width="900px" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
-        <td align="center" ><img width="900px" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/></td>
-        <td align="center" ><img width="900px" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
+        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
+        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
+        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/></td>
+        <td align="center" ><img width="700px" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/></td>
     <tr/>
     <tr>
        <td align="center">🔼 메인 페이지</td>
