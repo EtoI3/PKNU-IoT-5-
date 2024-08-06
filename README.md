@@ -20,6 +20,7 @@
 ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat-square&logo=CSharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
+![MAUI](https://img.shields.io/badge/MAUI-00008B?style=flat-square&logo=MAUI&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-a08021?style=flat-square&logo=firebase&logoColor=ffcd34)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white)
