@@ -56,29 +56,13 @@
 |<img width="300px" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/>|<img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/>
 |🔼 보관함 위치 표시|🔼 문의사항 페이지|
 
-<table>
-  <tr>
-    <td align="center"><img width="300" src="https://github.com/user-attachments/assets/11f344c1-e31e-4cff-af9a-8414bf325314"/></td>
-    <td align="center"><img width="300px" src="https://github.com/user-attachments/assets/eada39a6-ae48-4520-9e9f-db8c202f221a"/></td>
-    <td align="center"><img width="300px" src="https://github.com/user-attachments/assets/14eb8f76-2648-4862-82f0-9786e0929103"/></td>
-  </tr>
-  <tr>
-     <td align="center">🔼 로그인 페이지</td>
-     <td align="center">🔼 메뉴 페이지</td>
-     <td align="center">🔼 보관함 인증번호 표시</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td align="center"><img width="300px" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/></td>
-    <td align="center"><img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/></td>
-  </tr>
-  <tr>
-     <td align="center">🔼 보관함 위치 표시</td>
-     <td align="center">🔼 문의사항 페이지</td>
-  </tr>
-</table>
+|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/>|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/>|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/>|
+|:---:|:---:|:---:|
+|🔼 메인 페이지|🔼 사용자유형 선택|🔼 수취인 번호입력|
+|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/>|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/>|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/>
+|🔼 수령인 인증번호 입력|🔼 보관함 번호 선택|🔼 물품 보관 안내창|
+|<img width="247px" height="auto" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/>|
+|🔼 물품 회수 안내창|
 
 <!-- <table>
     <tr>
