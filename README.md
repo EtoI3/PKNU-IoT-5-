@@ -64,7 +64,7 @@
 </table>
 <table>
     <tr height="100px">
-        <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/33796dad-0c61-46da-b1dc-9de80a12a5c0"/></td>
+        <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/></td>
         <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/> </td>
     <tr/>
     <tr>
