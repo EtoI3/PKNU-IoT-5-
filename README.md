@@ -55,19 +55,13 @@
         <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/11f344c1-e31e-4cff-af9a-8414bf325314"/></td>
         <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/eada39a6-ae48-4520-9e9f-db8c202f221a"/></td>
         <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/14eb8f76-2648-4862-82f0-9786e0929103"/></td>
+        <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/></td>
+        <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/> </td>
     <tr/>
     <tr>
        <td align="center">🔼 로그인 페이지</td>
        <td align="center">🔼 메뉴 페이지</td>
        <td align="center">🔼 보관함 인증번호 페이지</td>
-    </tr>
-</table>
-<table>
-    <tr height="100px">
-        <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/></td>
-        <td align="center" ><img width="300px" height="auto" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/> </td>
-    <tr/>
-    <tr>
        <td align="center">🔼 보관함 위치 페이지</td>
        <td align="center">🔼 문의사항 페이지</td>
     </tr>
