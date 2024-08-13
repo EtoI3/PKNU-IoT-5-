@@ -52,11 +52,33 @@
 ## 💻 UI 화면 설명
 |<img width="300px" src="https://github.com/user-attachments/assets/11f344c1-e31e-4cff-af9a-8414bf325314"/>|<img width="300px" src="https://github.com/user-attachments/assets/eada39a6-ae48-4520-9e9f-db8c202f221a"/>|<img width="300px" src="https://github.com/user-attachments/assets/14eb8f76-2648-4862-82f0-9786e0929103"/>|
 |:---:|:---:|:---:|
-|🔼 로그인 페이지|🔼 메뉴 페이지|🔼 보관함 인증번호 페이지|
-
+|🔼 로그인 페이지|🔼 메뉴 페이지|🔼 보관함 인증번호 표시|
 |<img width="300px" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/>|<img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/>
-|:---:|:---:|:---:|
-|🔼 보관함 위치 페이지|🔼 문의사항 페이지|       |
+|🔼 보관함 위치 표시|🔼 문의사항 페이지|
+
+<table>
+  <tr>
+    <td align="center"><img width="300" src="https://github.com/user-attachments/assets/11f344c1-e31e-4cff-af9a-8414bf325314"/></td>
+    <td align="center"><img width="300px" src="https://github.com/user-attachments/assets/eada39a6-ae48-4520-9e9f-db8c202f221a"/></td>
+    <td align="center"><img width="300px" src="https://github.com/user-attachments/assets/14eb8f76-2648-4862-82f0-9786e0929103"/></td>
+  </tr>
+  <tr>
+     <td align="center">🔼 로그인 페이지</td>
+     <td align="center">🔼 메뉴 페이지</td>
+     <td align="center">🔼 보관함 인증번호 표시</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center"><img width="300px" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/></td>
+    <td align="center"><img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/></td>
+  </tr>
+  <tr>
+     <td align="center">🔼 보관함 위치 표시</td>
+     <td align="center">🔼 문의사항 페이지</td>
+  </tr>
+</table>
 
 <!-- <table>
     <tr>
