@@ -56,7 +56,7 @@
 
 |<img width="300px" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/>|<img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/>
 |:---:|:---:|:---:|
-|🔼 보관함 위치 페이지|🔼 문의사항 페이지|
+|🔼 보관함 위치 페이지|🔼 문의사항 페이지||
 
 
 <!-- <table>
