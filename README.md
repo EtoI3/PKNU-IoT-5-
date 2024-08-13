@@ -51,7 +51,7 @@
 
 ## 💻 UI 화면 설명
 <table>
-    <tr height="90px">
+    <tr height="100px">
         <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/11f344c1-e31e-4cff-af9a-8414bf325314"/></td>
         <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/eada39a6-ae48-4520-9e9f-db8c202f221a"/></td>
         <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/14eb8f76-2648-4862-82f0-9786e0929103"/></td>
@@ -63,14 +63,15 @@
     </tr>
 </table>
 <table>
-    <tr height="90px">
+    <tr height="100px">
         <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/33796dad-0c61-46da-b1dc-9de80a12a5c0"/></td>
-        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"
-/> </td>
+        <td align="center" ><img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/> </td>
+        <td align="center" ><img width="300px" src=""/></td>
     <tr/>
     <tr>
        <td align="center">🔼 보관함 위치 페이지</td>
        <td align="center">🔼 문의사항 페이지</td>
+       <td align="center"> </td>
     </tr>
 </table>
 
