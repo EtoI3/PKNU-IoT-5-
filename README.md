@@ -69,15 +69,12 @@
 <br>
 
 ## 🔎 프로젝트 구성도
-<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/프로젝트 구성도.png">
+<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/프로젝트 구성도.png" height="300" width="600">
 
 ## 🎥 프로젝트 최종
 ### 구현 모습
-#### 정면
-<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/정면.jpg">
-
-#### 측면
-<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/측면.jpg">
+|<img width="300px" src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/정면.jpg"/>|<img width="300px" src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/측면.jpg"/>
+|🔼 정면 모습|🔼 측면 모습|
 
 #### 물건 보관/찾기
 
