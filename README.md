@@ -50,7 +50,7 @@
 <br>
 
 ## 💻 UI 화면 설명
-<!-- |<img width="300px" src="https://github.com/user-attachments/assets/11f344c1-e31e-4cff-af9a-8414bf325314"/>|<img width="300px" src="https://github.com/user-attachments/assets/eada39a6-ae48-4520-9e9f-db8c202f221a"/>|<img width="300px" src="https://github.com/user-attachments/assets/14eb8f76-2648-4862-82f0-9786e0929103"/>|
+<img width="300px" src="https://github.com/user-attachments/assets/11f344c1-e31e-4cff-af9a-8414bf325314"/>|<img width="300px" src="https://github.com/user-attachments/assets/eada39a6-ae48-4520-9e9f-db8c202f221a"/>|<img width="300px" src="https://github.com/user-attachments/assets/14eb8f76-2648-4862-82f0-9786e0929103"/>|
 |:---:|:---:|:---:|
 |🔼 로그인 페이지|🔼 메뉴 페이지|🔼 보관함 인증번호 표시|
 |<img width="300px" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/>|<img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/>
@@ -62,9 +62,9 @@
 |<img width="500px" height="auto" src="https://github.com/user-attachments/assets/e2e2dad6-574d-4c0b-bd34-6114040256cc"/>|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/b6e7ed34-c2ac-4fb4-b7dc-0e6c9f81feb8"/>|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/712eed93-1f00-4aa2-9a43-8d69bf8dd9cc"/>
 |🔼 수령인 인증번호 입력|🔼 보관함 번호 선택|🔼 물품 보관 안내창|
 |<img width="247px" height="auto" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/>|
-|🔼 물품 회수 안내창| -->
+|🔼 물품 회수 안내창|
 
-<!-- <table>
+<table>
     <tr>
         <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
         <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
@@ -95,4 +95,4 @@
     <tr>
        <td align="center">🔼 물품 회수 안내창</td>
     </tr>
-</table> -->
+</table>
