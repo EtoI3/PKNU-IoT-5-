@@ -50,12 +50,14 @@
 <br>
 
 ## 💻 UI 화면 설명
+#### 스마트폰 앱 📱(.NET MAUI)
 <img width="300px" src="https://github.com/user-attachments/assets/11f344c1-e31e-4cff-af9a-8414bf325314"/>|<img width="300px" src="https://github.com/user-attachments/assets/eada39a6-ae48-4520-9e9f-db8c202f221a"/>|<img width="300px" src="https://github.com/user-attachments/assets/14eb8f76-2648-4862-82f0-9786e0929103"/>|
 |:---:|:---:|:---:|
 |🔼 로그인 페이지|🔼 메뉴 페이지|🔼 보관함 인증번호 표시|
 |<img width="300px" src="https://github.com/user-attachments/assets/65ed4164-8c84-47b2-8184-e5f2fc713e23"/>|<img width="300px" src="https://github.com/user-attachments/assets/28b710ff-a614-4047-99c8-dbb9d517bd73"/>
 |🔼 보관함 위치 표시|🔼 문의사항 페이지|
 
+#### 라즈베리파이 터치스크린 📺(Window 10 Iot Core, UWP)
 |<img width="500px" height="auto" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/>|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/>|<img width="500px" height="auto" src="https://github.com/user-attachments/assets/05959cc4-a175-4138-8b21-876e9fc9df05"/>|
 |:---:|:---:|:---:|
 |🔼 메인 페이지|🔼 사용자유형 선택|🔼 수취인 번호입력|
@@ -64,7 +66,28 @@
 |<img width="247px" height="auto" src="https://github.com/user-attachments/assets/0b51a6ea-9765-43b0-a407-d1f4cdae569f"/>|
 |🔼 물품 회수 안내창|
 
-<table>
+<br>
+
+## 🔎 프로젝트 구성도
+<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/프로젝트 구성도.png">
+
+## 🎥 프로젝트 최종
+### 구현 모습
+#### 정면
+<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/정면.jpg">
+
+#### 측면
+<img src="https://github.com/EtoI3/PKNU-IoT-5-/blob/main/imgs/측면.jpg">
+
+#### 물건 보관/찾기
+
+
+
+#### 센서 동작 확인
+
+
+
+<!-- <table>
     <tr>
         <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/604cb9e2-c67b-443d-8a71-4a6d6b42012e"/></td>
         <td align="center"><img width="500px" height="auto" src="https://github.com/user-attachments/assets/09e9511d-c50b-41f5-a8ef-e946946e1b16"/></td>
@@ -95,4 +118,4 @@
     <tr>
        <td align="center">🔼 물품 회수 안내창</td>
     </tr>
-</table>
+</table> -->
