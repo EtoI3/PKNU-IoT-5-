@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="HelloWorld.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWorld"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <CollectionViewSource x:Name="serialList"/>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="serialText" Text="" HorizontalAlignment="Center" Margin="0,10"/>
+            <Button Name="button1" Content="1번 Send 1" Width="200" Margin="0,10" Click="Button1_Click"/>
+            <Button Name="button2" Content="1번 Send 2" Width="200" Margin="0,10" Click="Button2_Click"/>
+            <Button Name="button3" Content="2번 Send 1" Width="200" Margin="0,10" Click="Button3_Click"/>
+            <Button Name="button4" Content="2번 Send 2" Width="200" Margin="0,10" Click="Button4_Click"/>
+            <Button Name="button5" Content="3번 Send 1" Width="200" Margin="0,10" Click="Button5_Click"/>
+            <Button Name="button6" Content="3번 Send 2" Width="200" Margin="0,10" Click="Button6_Click"/>
+            <Button Name="button7" Content="4번 Send 1" Width="200" Margin="0,10" Click="Button7_Click"/>
+            <Button Name="button8" Content="4번 Send 2" Width="200" Margin="0,10" Click="Button8_Click"/>
+            <TextBlock Name="statusText" Text="" HorizontalAlignment="Center" Margin="0,10"/>
+        </StackPanel>
+    </Grid>
+
+
+</Page>
