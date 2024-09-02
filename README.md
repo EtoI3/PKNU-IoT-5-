@@ -80,11 +80,11 @@
 
 #### 물건 보관/찾기
 
-
+https://github.com/user-attachments/assets/e928b5d4-b421-4cff-9b79-9d7e50515b88
 
 #### 센서 동작 확인
 
-
+https://github.com/user-attachments/assets/297fbb4e-6eee-4a78-84fa-ba84098f2ec9
 
 <!-- <table>
     <tr>
